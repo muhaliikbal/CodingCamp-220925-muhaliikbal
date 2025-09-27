@@ -1,0 +1,14 @@
+.logo{
+    height: 100px;
+    background: maroon;
+    width: 100px;
+    background-image: url('/img/logo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    background-color:#780400;
+}

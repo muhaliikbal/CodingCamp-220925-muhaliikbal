@@ -3,19 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Website muhaliikbal</title>
+    <title>Portfolio Website muhaliikbal</title>
     
     <!-- css external -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- tailwindcss -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
 <body>
 
     <!-- header content -->
-    <header></header>
+    <header class="main-header">
+        <!-- logo Website -->
+        <div class="logo">
+
+        </div>
+
+        <!-- navigation menu -->
+        <nav>
+            <ul class="flex h-[100px] items-center gap-[4px]">
+                <li><a class="border p-[8px] rounded" href="#home">Home</a></li>
+                <li><a class="border p-[8px] rounded" href="#profile">Profile</a></li>
+                <li><a class="border p-[8px] rounded" href="#portfolio">Portfolio</a></li>
+                <li><a class="border p-[8px] rounded" href="#contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
 
     <!-- main content -->
-    <main></main>
+    <main>
+        <section id="home" class="min-h-screen flex justify-center items-center">
+            <h1 class="text-4xl font-bold">Welcome to My Portfolio</h1>
+        </section>
+        <hr/>
+
+        <section id="profile" class="min-h-screen flex justify-center items-center">
+            <h2 class="text-3xl font-semibold">Profile</h2>
+        </section>
+        <hr/>
+
+        <section id="portfolio" class="min-h-screen flex justify-center items-center">
+            <h2 class="text-3xl font-semibold">Portfolio</h2>
+        </section>
+        <hr/>
+
+        <section id="contact-us" class="min-h-screen flex justify-center items-center">
+            <h2 class="text-3xl font-semibold">Contact Us</h2>
+        </section>
+        <hr/>
+    </main>
 
     <!-- footer content -->
     <footer></footer>
